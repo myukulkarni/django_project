@@ -2,20 +2,20 @@
 A Django-based web application with integrated Telegram bot functionality, OTP verification using Celery, public and protected API views, and user email interaction logging.
 
 # Setup Instructions
-# Clone the Repository :
+## Clone the Repository :
    git clone https://github.com/myukulkarni/django_project.git
    cd django_project
 
-# Create and Activate Virtual Environment (optional)
+## Create and Activate Virtual Environment (optional)
    python -m venv venv
    venv\Scripts\activate  # for Windows
-   # OR
+   ### OR
    source venv/bin/activate  # for Mac/Linux
    
-  # Install Dependencies
+  ## Install Dependencies
    pip install -r requirements.txt
 
-  # How to Run the Project Locally
+  ## How to Run the Project Locally
   1. Apply Migrations
      python manage.py migrate
   2. Run Development Server
@@ -25,11 +25,11 @@ A Django-based web application with integrated Telegram bot functionality, OTP v
   4. Run Telegram Bot
      python manage.py runbot
 
-  # API Documentation
+  ## API Documentation
 
   This project includes auto-generated API documentation using **Swagger UI** powered by `drf-yasg`.
 
-  # Accessing Swagger Docs
+  ## Accessing Swagger Docs
 
   Once the project is running locally, open your browser and navigate to:
   http://localhost:8000/swagger/
@@ -45,7 +45,7 @@ A Django-based web application with integrated Telegram bot functionality, OTP v
 
 ---
 
-  # Authorizing Protected Endpoints
+  ## Authorizing Protected Endpoints
 
   To access secured endpoints like `/protected/`:
 
